@@ -1,0 +1,11 @@
+= QuizApp
+
+== Screenshots
+[cols="a,a,a,a,a", frame=none, grid=none]
+|===
+| image::app/assets/images/screenshots/Screenshot_1.png[alt=onboarding_page_2, title="Main Activity", width=300]
+| image::app/assets/images/screenshots/Screenshot_2.png[alt=Quiz Activity, title="Quiz Activity", width=300]
+| image::app/assets/images/screenshots/Screenshot_3.png[alt=Quiz Activity | Correct answer, title="Quiz Activity | Correct answer", width=300]
+| image::app/assets/images/screenshots/Screenshot_4.png[alt=Quiz Activity | Wrong answer, title="Quiz Activity | Wrong answer", width=300]
+| image::app/assets/images/screenshots/Screenshot_5.png[alt=Result Activity, title="Result Activity", width=300]
+|===
