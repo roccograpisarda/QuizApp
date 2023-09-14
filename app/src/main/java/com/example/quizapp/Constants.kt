@@ -2,17 +2,21 @@ package com.example.quizapp
 
 object Constants {
 
-    fun getQuestions():ArrayList<Question>{
+    const val USER_NAME : String = "user_name"
+    const val TOTAL_QUESTIONS : String = "total_questions"
+    const val CORRECT_ANSWERS : String = "correct_answers"
+
+    fun getQuestions(): ArrayList<Question> {
         val questionList = ArrayList<Question>()
 
         val que1 = Question(
             1,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_argentina,
-            "America","Argentina",
-            "Italy","Australia",
+            "America", "Argentina",
+            "Italy", "Australia",
             2
-            )
+        )
         questionList.add(que1)
 
 
@@ -20,9 +24,9 @@ object Constants {
             2,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_australia,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "America", "Argentina",
+            "Italy", "Australia",
+            4
         )
         questionList.add(que2)
 
@@ -31,9 +35,9 @@ object Constants {
             3,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_belgium,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "Germany", "Austria",
+            "Belgium", "Italy",
+            3
         )
         questionList.add(que3)
 
@@ -42,21 +46,20 @@ object Constants {
             4,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_brazil,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "Brazil", "Spain",
+            "Italy", "Australia",
+            1
         )
         questionList.add(que4)
-
 
 
         val que5 = Question(
             5,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_denmark,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "United Kingdom", "Poland",
+            "Denmark", "United States",
+            3
         )
         questionList.add(que5)
 
@@ -65,9 +68,9 @@ object Constants {
             6,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_fiji,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "Fiji", "Argentina",
+            "New Zeland", "Australia",
+            1
         )
         questionList.add(que6)
 
@@ -76,9 +79,9 @@ object Constants {
             7,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_germany,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "Belgium", "Argentina",
+            "Italy", "Germany",
+            4
         )
         questionList.add(que7)
 
@@ -86,9 +89,9 @@ object Constants {
             8,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_india,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "India", "Ireland",
+            "Italy", "Mexico",
+            1
         )
         questionList.add(que8)
 
@@ -97,9 +100,9 @@ object Constants {
             9,
             "What country does this flag belong to?",
             R.drawable.ic_flag_of_kuwait,
-            "America","Argentina",
-            "Italy","Australia",
-            2
+            "Saudi Arabia", "Oman",
+            "Qatar", "Kuwait",
+            4
         )
         questionList.add(que9)
 
@@ -108,8 +111,6 @@ object Constants {
 
 
         return questionList
-
-
 
 
     }
